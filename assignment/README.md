@@ -1,6 +1,6 @@
-#Assignment 1 python script
+## Assignment 1 python script
 
-#Objective: Main code is after the definition of the functions. The code should make the robot:
+### Objective: Main code is after the definition of the functions. The code should make the robot:
 	- 1) find and grab the silver marker (token)
 	- 2) move the marker close to golden marker (token) and release it
 	- 3) start again from 1
