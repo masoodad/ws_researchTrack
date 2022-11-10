@@ -16,3 +16,8 @@ Modify the code of the exercise2 to make the robot:
 
 #Run:	When done, copy this python file in folder of simulator and run with:
 	$ python run.py assignment.py
+
+
+
+[flow.drawio.pdf](https://github.com/masoodad/ws_researchTrack/files/9984206/flow.drawio.pdf)
+
