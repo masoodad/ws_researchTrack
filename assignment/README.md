@@ -1,4 +1,4 @@
-###Assignment 1 python script
+#Assignment 1 python script
 
 #Objective: Main code is after the definition of the functions. The code should make the robot:
 	- 1) find and grab the silver marker (token)
@@ -19,5 +19,5 @@ Modify the code of the exercise2 to make the robot:
 
 
 
-![flow](https://user-images.githubusercontent.com/48551115/201193012-7c5e72f9-d9a8-404f-8706-7840f82071d1.svg)
+![flow](https://user-images.githubusercontent.com/48551115/201193198-5d2d1acd-9900-4c3e-904a-6c1867b53741.svg)
 
