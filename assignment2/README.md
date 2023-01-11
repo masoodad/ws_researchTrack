@@ -6,42 +6,36 @@
 of the custom message.
   - (b) A service node that, when called, prints the number of goals reached and cancelled;
   - (c) A node that subscribes to the robot’s position and velocity (using the custom message) and prints the distance of the robot from the target and the robot’s average speed. Use a parameter to set how fast the node publishes the information.
+
+
+![base_config](robot.png)  
   
-### Observation
-![base_config](robot.png)
-
-
+### Content
 - [Package Organization](#Package-Organization)
 - [Installation](#Installation)
-- [Usage](#Usage)
-- [Contributing](#Contributing)
+- [Pseudocod](#Pseudocode)
 
 ## Package Organization
-This project has the following folder structure.
+This package have following files structure. Name of package is 'control' and and inside the package, following is the structure of files.
 
-- **config:** Folder to place the config files with the parameters of the parts of the robot and also some config files to the RVIZ.
-    - *sub-folder:* The config files to a specific project should be placed in a sub-folder in order to make it possible to have different models in the same project.
+- **src:** Folder to place the all the nodes of the project. There are total of four nodes in the src files.
+  - *sub-files:* Nodes of the project.
 - **launch:** Folder with the launch files for the robots.
-- **meshes:** Folder to place the mesh files for the links of the robot. These meshes files will be used **only** as visual. The collision of the links is set as basic shapes to reduce the computational cost as the Gazebo tutorial suggests.
-    - *sub-folder:* The specific mesh files of each project should be placed in the sub-folder with the name of the project.
-- **rviz:** Folder with the RVIZ configuration for the robot.
-- **urdf:** Folder with the URDF and xacro files.
+- **srv:** Folder with the service files for the robots.   
+- **msg:** Folder with the msg files for the robot.
+- **Other files:** Folders and other files are also important such as CMakelist and package files.
     - ***include:*** Folder with the common module files, similar to the Libs.
 
 ## Installation
 To install this package, just clone it inside your ROS workspace, running:
 
 ``` 
-$ git clone https://github.com/ros-mobile-robots/mobile_robot_description.git
+$ git clone https://github.com/masoodad/ws_researchTrack/tree/main/assignment2
 ```
-This command will clone the `master` branch which is compatible with "ROS 1". If you intend to use ROS 2 (Foxy), use this command:
+This command will clone the `master` branch which is compatible with "ROS-notic".
 
-``` 
-$ git clone -b ros2-foxy https://github.com/ros-mobile-robots/mobile_robot_description.git
-```
-Check the `ros2-foxy` branch [documentation](https://github.com/ros-mobile-robots/mobile_robot_description/tree/ros2-foxy) to know some differences.
 
-## Usage 
+## Pseudocode 
 The basic modules of this package are inside the file ***common_macro.urdf.xacro*** that is at *urdf/include* folder as described above. This file work as a library and you can add it to your robot description like [this](https://github.com/pxalcantara/mobile_robot_description/blob/48819dcec6f897b7d02e8d4aa6c66d803ddf6239/urdf/mobile_robot.urdf.xacro#L7):
 
 ```xml
