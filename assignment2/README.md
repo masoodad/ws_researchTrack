@@ -75,7 +75,3 @@ This sudo code is for only two nodes of package, "client_node" and "client_sub_n
   - Inside Call back function 
   - Custom msg was defined    
 - Subcriber is created called sub which subcribes "/odom"
-
-```xml
-<xacro:include filename="$(find ${package_name})/urdf/include/common_macros.urdf.xacro" />
-```
