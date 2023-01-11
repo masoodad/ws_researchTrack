@@ -15,7 +15,7 @@ of the custom message.
 - [Package Organization](#Package-Organization)
 - [Installation](#Installation)
 - [Running](#Running)
-- [Pseudocod](#Pseudocode)
+- [Pseudocode](#Pseudocode)
 
 ## Package Organization
 This package have following files structure. Name of package is 'control' and and inside the package, following is the structure of files.
