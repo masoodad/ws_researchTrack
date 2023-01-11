@@ -34,7 +34,7 @@ For running this file we assume that you already have ROS workspace created and 
 ``` 
 $ git clone https://github.com/masoodad/ws_researchTrack/tree/main/assignment2
 ```
-
+Since this is a private file it may not work in some case. Hence suggest you download root respository and then copy "control" package into workspace.
 ### Running
 
 To run this package, first run userinterface file then other launch files. 
