@@ -61,7 +61,20 @@ roslaunch control assign_solution.launch
 
 
 ## Pseudocode 
-The basic modules of this package are inside the file ***common_macro.urdf.xacro*** that is at *urdf/include* folder as described above. This file work as a library and you can add it to your robot description like [this](https://github.com/pxalcantara/mobile_robot_description/blob/48819dcec6f897b7d02e8d4aa6c66d803ddf6239/urdf/mobile_robot.urdf.xacro#L7):
+This sudo code is for only two nodes of package, "client_node" and "client_sub_node".
+
+- **client_node**
+- Action client is created which calls Action server "Planning".
+- Ininite Loop
+  - Press one then goal location from the user is taken
+  - Press zero then Goal is cancelled
+  - (For proper functionality of code please cancel goal after setting goal)
+- Loop finished
+- **client_sub_node**
+- Publisher is created called pub with call back function "Cbkodom"
+  - Inside Call back function 
+  - Custom msg was defined    
+- Subcriber is created called sub which subcribes "/odom"
 
 ```xml
 <xacro:include filename="$(find ${package_name})/urdf/include/common_macros.urdf.xacro" />
