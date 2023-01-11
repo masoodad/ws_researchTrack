@@ -34,17 +34,28 @@ To install this package, just clone it inside your ROS workspace, running:
 ``` 
 $ git clone https://github.com/masoodad/ws_researchTrack/tree/main/assignment2
 ```
-This command will clone the `master` branch which is compatible with "ROS-notic".
 
 ### Running
 
+To run this package, first run userinterface file then other launch files. 
+
+``` 
+roslaunch assignment_2_2022 assignment1.launch
+```
+- **Start user interface**
+``` 
+rosrun control client_node
+```
+Once node is started, follow the instruction on the terminal. Please find the screenshot for more details. 
 
 ![Screenshot from 2023-01-11 03-08-03](https://user-images.githubusercontent.com/48551115/211718427-559d5ab7-240f-49f9-9977-3a9eb7bf3587.png)
-![Screenshot from 2023-01-11 03-08-32](https://user-images.githubusercontent.com/48551115/211718431-d348bcba-0f46-4fb6-8b5f-68aba49db64a.png)
-![Screenshot from 2023-01-11 03-09-00](https://user-images.githubusercontent.com/48551115/211718433-85bae67a-a070-4f45-aa16-c21630244f42.png)
-![Screenshot from 2023-01-11 03-09-12](https://user-images.githubusercontent.com/48551115/211718441-7ae05197-c406-4e97-9b46-73dc679d15fb.png)
-![Screenshot from 2023-01-11 03-09-34](https://user-images.githubusercontent.com/48551115/211718444-bc972869-7eb2-42af-a092-98b21a8724ed.png)
-![Screenshot from 2023-01-11 03-37-33](https://user-images.githubusercontent.com/48551115/211718451-591a2c41-1318-4dd8-877e-1c8043f63b4b.png)
+
+- **Launch assign_solution.launch**
+``` 
+rosrun control assignment1.launch
+```
+
+
 
 
 ## Pseudocode 
