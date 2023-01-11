@@ -29,7 +29,7 @@ This package have following files structure. Name of package is 'control' and an
     - ***include:*** Folder with the common module files, similar to the Libs.
 
 ## Installation
-To install this package, just clone it inside your ROS workspace, running:
+For running this file we assume that you already have ROS workspace created and other required files. To install this package, just clone it inside your ROS workspace, running:
 
 ``` 
 $ git clone https://github.com/masoodad/ws_researchTrack/tree/main/assignment2
@@ -52,10 +52,12 @@ Once node is started, follow the instruction on the terminal. Please find the sc
 
 - **Launch assign_solution.launch**
 ``` 
-rosrun control assignment1.launch
+roslaunch control assign_solution.launch
 ```
 
-
+![Screenshot from 2023-01-11 05-53-26](https://user-images.githubusercontent.com/48551115/211720964-47cd5881-b9a6-4d51-a27e-9f64d80a6176.png)
+![Screenshot from 2023-01-11 05-53-43](https://user-images.githubusercontent.com/48551115/211720972-12f26d68-37e5-4a55-a45d-2e72735148fc.png)
+![Screenshot from 2023-01-11 05-54-52](https://user-images.githubusercontent.com/48551115/211720980-436af9ef-2e76-4620-9125-69b905f72d4d.png)
 
 
 ## Pseudocode 
