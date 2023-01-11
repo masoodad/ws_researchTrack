@@ -8,11 +8,13 @@ of the custom message.
   - (c) A node that subscribes to the robot’s position and velocity (using the custom message) and prints the distance of the robot from the target and the robot’s average speed. Use a parameter to set how fast the node publishes the information.
 
 
-![base_config](robot.png)  
+![Screenshot from 2023-01-11 04-45-58](https://user-images.githubusercontent.com/48551115/211718216-c5359878-052d-4491-8543-d0c1db8dd183.png)
+
   
 ### Content
 - [Package Organization](#Package-Organization)
 - [Installation](#Installation)
+- [Running](#Running)
 - [Pseudocod](#Pseudocode)
 
 ## Package Organization
@@ -33,6 +35,16 @@ To install this package, just clone it inside your ROS workspace, running:
 $ git clone https://github.com/masoodad/ws_researchTrack/tree/main/assignment2
 ```
 This command will clone the `master` branch which is compatible with "ROS-notic".
+
+### Running
+
+
+![Screenshot from 2023-01-11 03-08-03](https://user-images.githubusercontent.com/48551115/211718427-559d5ab7-240f-49f9-9977-3a9eb7bf3587.png)
+![Screenshot from 2023-01-11 03-08-32](https://user-images.githubusercontent.com/48551115/211718431-d348bcba-0f46-4fb6-8b5f-68aba49db64a.png)
+![Screenshot from 2023-01-11 03-09-00](https://user-images.githubusercontent.com/48551115/211718433-85bae67a-a070-4f45-aa16-c21630244f42.png)
+![Screenshot from 2023-01-11 03-09-12](https://user-images.githubusercontent.com/48551115/211718441-7ae05197-c406-4e97-9b46-73dc679d15fb.png)
+![Screenshot from 2023-01-11 03-09-34](https://user-images.githubusercontent.com/48551115/211718444-bc972869-7eb2-42af-a092-98b21a8724ed.png)
+![Screenshot from 2023-01-11 03-37-33](https://user-images.githubusercontent.com/48551115/211718451-591a2c41-1318-4dd8-877e-1c8043f63b4b.png)
 
 
 ## Pseudocode 
