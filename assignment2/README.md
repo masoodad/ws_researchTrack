@@ -32,7 +32,7 @@ This package have following files structure. Name of package is 'control' and an
 For running this file we assume that you already have ROS workspace created and other required files. To install this package, just clone it inside your ROS workspace, running:
 
 ``` 
-$ git clone https://github.com/masoodad/ws_researchTrack/tree/main/assignment2
+git clone https://github.com/masoodad/ws_researchTrack/tree/main/assignment2
 ```
 Since this is a private file it may not work in some case. Hence it is suggestted that please download root respository and then copy "control" package into workspace.
 ```
